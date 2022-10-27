@@ -11,11 +11,13 @@
 
 :root {
   --color-bg: #847c6f;
-  --color-bg-variant: #f0d8b1;
+  --color-bg-variant: #d1c4b0;
   --color-primary: #847c6f;
   --color-primary-variant: #b5a994;
   --color-white: #fff;
+  --color-font: #363535;
   --color-light: #fcf4e6;
+  --color-black: #000000;
 
   --transition: all 400ms ease;
 
@@ -35,6 +37,6 @@ html {
 body {
   font-family: "Ubuntu", sans-serif;
   background: linear-gradient(-90deg, var(--color-bg-variant), var(--color-bg));
-  color: var(--color-light);
+  color: var(--color-font);
   line-height: 1.7;
 }

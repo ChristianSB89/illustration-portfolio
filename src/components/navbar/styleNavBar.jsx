@@ -2,10 +2,10 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const NavWrapper = styled.nav`
-  border-left: #847c6f outset 1px;
-  border-right: #847c6f outset 1px;
-  border-bottom: #847c6f outset 1px;
-  background: #d1c4b0;
+  border-left: var(--color-bg) inset 1px;
+  border-right: var(--color-bg) inset 1px;
+  border-bottom: var(--color-bg) inset 1px;
+  background: var(--color-bg-variant);
   display: flex;
   flex-direction: column;
   width: 13em;
@@ -19,19 +19,22 @@ export const NavWrapper = styled.nav`
   -moz-box-shadow: -7px 7px 17px -7px rgba(0, 0, 0, 1);
 `;
 
-export const NameTag = styled.h3``;
+export const SectionPadding = styled.section`
+  padding-bottom: 1em;
+`;
 
 export const LiFix = styled.li`
   padding: 0.2em;
 `;
 
 export const StyledLink = styled(NavLink)`
-  color: #847c6f;
+  color: var(--color-bg);
   text-decoration: none;
   &:hover,
   &.active {
+    color: var(--color-font);
     font-weight: 700;
-    border-top: #847c6f solid 2px;
-    border-bottom: #847c6f solid 2px;
+    border-top: var(--color-font) solid 2px;
+    border-bottom: var(--color-font) solid 2px;
   }
 `;
