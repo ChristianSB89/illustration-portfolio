@@ -6,14 +6,20 @@ import DigitalArt from "../pages/Artwork - Digital/DigitalArt";
 import TraditionalArt from "../pages/Artwork - Traditional/TraditionalArt";
 import Sketches from "../pages/Artwork - Sketches/Sketches";
 import Contact from "../pages/Contact/Contact";
-import { LiFix, NavWrapper, SectionPadding, StyledLink } from "./styleNavBar";
+import {
+  LiFix,
+  NameTag,
+  NavWrapper,
+  SectionPadding,
+  StyledLink,
+} from "./styleNavBar";
 
 function NavBar() {
   return (
     <Router>
       <NavWrapper>
         <SectionPadding>
-          <h3>Chris SanBre</h3>
+          <NameTag>Chris SaBre</NameTag>
         </SectionPadding>
         <section>
           <LiFix>

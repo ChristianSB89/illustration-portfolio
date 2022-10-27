@@ -10,23 +10,19 @@ export const NavWrapper = styled.nav`
   text-transform: uppercase;
   letter-spacing: 0.3ch;
   background: #ffffff;
-  position: relative;
-  &::before {
-    content: "";
-    border: 2px solid #353535;
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.5deg);
-    border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
-  }
+  position: absolute;
+  top: 1;
+  left: 1;
+  box-shadow: 2px 3px 20px black, 0 0 60px #3b2d1f inset;
 `;
 
 export const SectionPadding = styled.section`
   padding-bottom: 1em;
+`;
+
+export const NameTag = styled.h3`
+  font-size: 30px;
+  font-weight: bold;
 `;
 
 export const LiFix = styled.li`
