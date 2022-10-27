@@ -12,26 +12,31 @@ function NavBar() {
   return (
     <Router>
       <NavWrapper>
-        <LiFix>
-          <StyledLink exact to="/" end>
-            Home
-          </StyledLink>
-        </LiFix>
-        <LiFix>
-          <StyledLink to="/about">About</StyledLink>
-        </LiFix>
-        <LiFix>
-          <StyledLink to="/digital-art">Digital Art</StyledLink>
-        </LiFix>
-        <LiFix>
-          <StyledLink to="/traditional-art">Traditional Art</StyledLink>
-        </LiFix>
-        <LiFix>
-          <StyledLink to="/sketches">Sketches</StyledLink>
-        </LiFix>
-        <LiFix>
-          <StyledLink to="/contact">Contact</StyledLink>
-        </LiFix>
+        <section>
+          <h3>Chris SanBre</h3>
+        </section>
+        <section>
+          <LiFix>
+            <StyledLink exact to="/" end>
+              Home
+            </StyledLink>
+          </LiFix>
+          <LiFix>
+            <StyledLink to="/about">About</StyledLink>
+          </LiFix>
+          <LiFix>
+            <StyledLink to="/digital-art">Digital Art</StyledLink>
+          </LiFix>
+          <LiFix>
+            <StyledLink to="/traditional-art">Traditional Art</StyledLink>
+          </LiFix>
+          <LiFix>
+            <StyledLink to="/sketches">Sketches</StyledLink>
+          </LiFix>
+          <LiFix>
+            <StyledLink to="/contact">Contact</StyledLink>
+          </LiFix>
+        </section>
       </NavWrapper>
       <Routes>
         <Route path="/" element={<LandingPage />} />

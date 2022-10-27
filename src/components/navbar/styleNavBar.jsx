@@ -10,7 +10,6 @@ export const NavWrapper = styled.nav`
   flex-direction: column;
   width: 13em;
   padding: 1.5em;
-  padding-top: 4em;
   text-transform: uppercase;
   border-radius: 0 0 2em 2em;
   margin-left: 3em;
@@ -19,6 +18,8 @@ export const NavWrapper = styled.nav`
   -webkit-box-shadow: -7px 7px 17px -7px rgba(0, 0, 0, 1);
   -moz-box-shadow: -7px 7px 17px -7px rgba(0, 0, 0, 1);
 `;
+
+export const NameTag = styled.h3``;
 
 export const LiFix = styled.li`
   padding: 0.2em;

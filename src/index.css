@@ -10,12 +10,12 @@
 }
 
 :root {
-  --color-bg: #274c77;
-  --color-bg-variant: #6096ba;
-  --color-primary: #a3cef1;
-  --color-primary-variant: #6096ba;
+  --color-bg: #847c6f;
+  --color-bg-variant: #f0d8b1;
+  --color-primary: #847c6f;
+  --color-primary-variant: #b5a994;
   --color-white: #fff;
-  --color-light: #e7ecef;
+  --color-light: #fcf4e6;
 
   --transition: all 400ms ease;
 
@@ -35,6 +35,6 @@ html {
 body {
   font-family: "Ubuntu", sans-serif;
   background: linear-gradient(-90deg, var(--color-bg-variant), var(--color-bg));
-  color: var(--color-white);
+  color: var(--color-light);
   line-height: 1.7;
 }
